@@ -1,5 +1,5 @@
  //用js创建一个chanvas元素
- const host = "https://blog.52bp.love";
+ const host = "https://blog.52bp.love/test";
  // const host = window.location.origin;
 
  $("body").append('<canvas id= "qrcanvas" style= "display:none;"></canvas>')
