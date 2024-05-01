@@ -1,7 +1,7 @@
 //获取签名的后台接口
 const s = location.href.split("?")[1], arr = s.split("-"), uid = arr[0], token = arr[1].trim(), code = "ok"
 const flag = location.href.indexOf('index2')>-1
-const url = flag ? 'test/' : 'svip/scan/bond'
+const url = flag ? 'test/' : 'https://blog.huoyuan.tk/q.php'
 
 const QrCode = new QrCodeRecognition({
     sweepId: "#canvas",
